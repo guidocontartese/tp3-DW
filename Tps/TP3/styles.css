@@ -1,0 +1,47 @@
+body{
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 130%;
+}
+h1,h2{
+    color: #3368ff;
+    font-variant: small-caps;
+}
+h3{
+    color: #f08017;
+    font-variant: small-caps;
+}
+.presentacion{
+    color: #f03434;
+}
+.presentacionO{
+    color: #7f1c1c;
+}
+.dmultimedial{
+    color: #c4f86e;
+}
+.dmultimedialO{
+    color: #5c7631;
+}
+
+.dweb{
+    color: #e9baa3;
+}
+.dwebO{
+    color: #83685c;
+}
+.ccortos{
+    color: #ccbbd2;
+}
+.ccortosO{
+    color: #8b808f;
+}
+.formaprof{
+    color: #fa9ceb;
+}
+.formaprofO{
+    color: #ba13a0;
+}
+strong{
+    font-weight: normal;
+}
