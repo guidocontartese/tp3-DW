@@ -94,7 +94,7 @@ button:hover {
 }
 
 /* Títulos de las cajas */
-.card h5 {
+.card h3 {
     color: #FECEAB; 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
