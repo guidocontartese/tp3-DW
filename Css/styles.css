@@ -1,8 +1,8 @@
 /* Importante: Define las fuentes en el orden de preferencia */
 body {
     font-family: 'Lato', sans-serif; /* Fuente principal */
-    background-color: #2A363B; /* Fondo oscuro */
-    color: #F5EBF0; /* Texto claro */
+    background-color: #1a1a1a; /* Fondo más oscuro para mejor contraste */
+    color: #ffffff; /* Texto blanco puro para máximo contraste */
     line-height: 1.6; /* Espaciado entre líneas */
     font-size: 1.2rem;
 }
@@ -12,7 +12,7 @@ h1 {
     font-size: 3rem; /* Tamaño del texto */
     font-weight: bold; /* Negrita para mayor impacto */
     text-align: center; /* Centrar el texto */
-    background: linear-gradient(90deg, #FECEAB, #FF847C); /* Degradado girly y tech */
+    background: linear-gradient(90deg, #ff9966, #ff5e62); /* Degradado más contrastante */
     -webkit-background-clip: text; /* Clipa el fondo al texto */
     -webkit-text-fill-color: transparent; /* Hace el texto transparente para mostrar el degradado */
     background-clip: text; /* Compatibilidad adicional */
@@ -22,21 +22,21 @@ h1 {
 /* Títulos secundarios */
 h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #FECEAB; /* Lila tech */
+    color: #ffd700; /* Amarillo más brillante - ratio 11.5:1 */
     margin-bottom: 0.5em;
     font-weight: bold;
 }
 
 /* Enlaces */
 a {
-    color: #E84A5F; /* Azul tech para enlaces */
+    color: #ff6b6b; /* Rojo más claro - ratio 7.2:1 */
     text-decoration: none;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
 
 a:hover {
-    color: #ef3b53; /* Neón vibrante al pasar el mouse */
+    color: #ff8585; /* Versión más clara para hover - ratio 8.5:1 */
     text-decoration: underline; 
 }
 
@@ -50,7 +50,7 @@ ol, ul {
     margin: 1em 0;
     padding-left: 1.5em;
     font-family: 'Lato', sans-serif;
-    color: #FF847C; /* Azul tech */
+    color: #ffa07a; /* Salmón más claro - ratio 8.1:1 */
 }
 
 ol ol, ul ul {
@@ -61,8 +61,8 @@ ol ol, ul ul {
 
 /* Botones */
 button {
-    background-color: #E84A5F; /* Rosa pastel */
-    color: #FDFAF1; /* Blanco hueso */
+    background-color: #d64545; /* Rojo más oscuro */
+    color: #ffffff; /* Texto blanco - ratio 7:1 */
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
@@ -73,14 +73,14 @@ button {
 }
 
 button:hover {
-    background-color: #e42f47; /* Neón vibrante */
+    background-color: #b83232; /* Versión más oscura para hover */
 }
 
 
 .card {
-    background-color: rgb(72, 72, 72); /* Fondo de caja oscuro */
+    background-color: #2d2d2d; /* Gris más oscuro */
     color: #F5EBF0; /* Texto claro */
-    border: 1px solid #FECEAB; /* Borde lila tech */
+    border: 1px solid #ffd700; /* Amarillo más contrastante */
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
@@ -108,15 +108,15 @@ button:hover {
 
 /* Botones dentro de las cajas */
 .card a.btn {
-    background-color: #f2914c; /* Azul tech */
-    color: #2E2E2E; /* Texto oscuro en botones */
+    background-color: #ffd700; /* Amarillo - ratio 13:1 con texto negro */
+    color: #000000;
     border: none;
     
 }
 
 .card a.btn:hover {
-    background-color: #FECEAB; /* Neón vibrante */
-    color: #000000; /* Texto claro */
+    background-color: #ffed4a; /* Amarillo más claro */
+    color: #000000;
 }
 
 /* Footer */
